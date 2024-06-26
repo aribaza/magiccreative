@@ -1,6 +1,4 @@
 # Magic Creative
-## Create a Populated IDML File from an IDML Template
-
 ## Overview
 Magic Creative allows you to create a populated IDML file from an IDML template by replacing text fields and images as specified.
 
