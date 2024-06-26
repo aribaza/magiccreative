@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal Server Error</title>
+    <link rel="stylesheet" href="static/index.css">
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+    <style>
+        .back-to-upload {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #BD212F;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        
+        .error-message {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 24px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-message">
+        <h1>500 Internal Server Error</h1>
+        <p>Something went wrong. Please try again later.</p>
+    </div>
+    <!-- Back to Upload button -->
+    <form action="/" method="get">
+        <button class="back-to-upload" type="submit">Back to Upload</button>
+    </form>
+</body>
+</html>
