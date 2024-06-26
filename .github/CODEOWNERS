@@ -1,0 +1,15 @@
+# Code owners for everything in the repo
+* @aribaza
+
+# Code owners for the static folder
+/static/ @aribaza
+
+# Code owners for the templates folder
+/templates/ @aribaza
+
+# Code owners for specific files
+README.md @aribaza
+app.yaml @aribaza
+helpers.py @aribaza
+main.py @aribaza
+requirements.txt @aribaza
